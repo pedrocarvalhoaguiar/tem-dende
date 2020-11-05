@@ -28,8 +28,7 @@ html{
     margin-top: 20%;
 }
 nav{
-    padding: 20px;
-
+    margin-top: 10%;
 }
 nav ul li{
     list-style: none;
@@ -45,6 +44,7 @@ nav ul li a {
 nav ul li a:hover {
     color: rgb(214, 130, 130);
     text-shadow:2px 2px 2px #111;
+    transition: color 0.3s;
 }
 .side-bar footer{
     position: relative;
@@ -88,16 +88,7 @@ h6{
     border: 1px solid grey;
     box-shadow:10px 10px 10px rgba(0, 0, 0, 0.2);    
 }
-.main:first-of-type{
-    background-color: rgb(240, 134, 134);
-}
-.main:hover:first-of-type{
-    background-color: rgb(218, 111, 111);    
-}
 
-.main:last-child{
-    margin-bottom: 0;
-}
 p{
     font-family: sans-serif;
     font-size: 18px;

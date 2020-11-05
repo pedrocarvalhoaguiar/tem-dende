@@ -1,12 +1,20 @@
-.produtos table{
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    border: 1px solid red;
-    width: 80%;
+.produtos  table{
+    padding: 2px;
+    border: 1px solid rgb(240, 134, 134);    
+    width: 100%;  
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size:2em;
-}
-.produtos table tr{
+    font-size:1em;
     text-align: center;
+}
+
+.produtos table td{
+    border: 1px solid rgb(240, 134, 134);
+}
+.prod-image2 > img{
+    width: 200px;
+    height: 200px;
+}
+
+.price{
+    font-size: 2rem;
 }

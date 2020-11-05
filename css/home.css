@@ -15,3 +15,14 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.main:first-of-type{
+    background-color: rgb(240, 134, 134);
+    transition: background-color 0.3s;
+}
+.main:hover:first-of-type{
+    background-color: rgb(218, 111, 111); 
+}
+
+.main:last-child{
+    margin-bottom: 0;
+}
