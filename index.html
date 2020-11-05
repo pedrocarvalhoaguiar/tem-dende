@@ -38,80 +38,87 @@
                     </div>             
                 </div>
                 <h2 id="produtos">Produtos</h2>
-                <div class="main">
-                    <div class="produtos">
-                        <table>
-                            <thead>
-                            <tr>
-                                <th>Produto</th>
-                                <th>Descrição</th>
-                                <th>Preço / Un</th>
-                                <th>Tamanhos</th>
-                                <th>Cores</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr>
-                                <td><img src="img/gunga.jpg" alt=""></td>    
-                                <td>Gunga ou Berra-boi - Tom mais grave</td>
-                                <td class="price"><strong>R$59,90</strong></td>
-                                <td><select name="tamanho" id="tamanho">
+                <table class="produtos">
+                    <thead>
+                        <tr>
+                            <th>Produto</th>
+                            <th>Descrição</th>
+                            <th>Preço / Un</th>
+                            <th>Tamanhos</th>
+                            <th>Cores</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="img/gunga.jpg" alt=""></td>    
+                            <td>Gunga ou Berra-boi - Tom mais grave</td>
+                            <td class="price"><strong>R$59,90</strong></td>
+                            <td><select name="tamanho" id="tamanho">
                                     <option value="pequeno">Pequeno</option>
                                     <option value="medio">Médio</option>
                                     <option value="grande">Grande</option>
-                                </select></td>
-                                <td>Livre escolha</td>
-                            </tr>
-                            <tr>
-                                <td><img src="img/medio.jpg" alt=""></td>
-                                <td>Médio - Tom médio</td>
-                                <td class="price"><strong>R$49,90</strong></td>
-                                <td><select name="tamanho" id="tamanho">
+                                </select>
+                            </td>
+                            <td>Livre escolha</td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/medio.jpg" alt=""></td>
+                            <td>Médio - Tom médio</td>
+                            <td class="price"><strong>R$49,90</strong></td>
+                            <td>
+                                <select name="tamanho" id="tamanho">
                                     <option value="pequeno">Pequeno</option>
                                     <option value="grande">Grande</option>
-                                </select></td>
-                                <td>Livre scolha</td>
-                            </tr>
-                            <tr>
-                                <td><img src="img/viola.jpg" alt=""></td>
-                                <td>Violinha ou Viola - Som mais alto</td>
-                                <td class="price"><strong>R$39,90</strong></td>
-                                <td><select name="tamanho" id="tamanho">
+                                </select>
+                            </td>
+                            <td>Livre scolha</td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/viola.jpg" alt=""></td>
+                            <td>Violinha ou Viola - Som mais alto</td>
+                            <td class="price"><strong>R$39,90</strong></td>
+                            <td>
+                                <select name="tamanho" id="tamanho">
                                     <option value="medio">Médio</option>
                                     <option value="grande">Grande</option>
-                                </select></td>
-                                <td>Livre escolha</td>
-                            </tr>
-                            <tr>
-                                <td class="prod-image2"><img src="img/pandeiro.jpg" alt=""></td>
-                                <td>Pandeiro feito à mão</td>
-                                <td class="price"><strong>R$45,90</strong></td>
-                                <td><select name="tamanho" id="tamanho">
+                                </select>
+                            </td>
+                            <td>Livre escolha</td>
+                        </tr>
+                        <tr>
+                            <td class="prod-image2"><img src="img/pandeiro.jpg" alt=""></td>
+                            <td>Pandeiro feito à mão</td>
+                            <td class="price"><strong>R$45,90</strong></td>
+                            <td>
+                                <select name="tamanho" id="tamanho">
                                     <option value="pequeno">Pequeno</option>
                                     <option value="medio">Médio</option>
                                     <option value="grande">Grande</option>
-                                </select></td>
-                                <td><select name="cor" id="cor">
+                                </select>
+                            </td>
+                            <td>
+                                <select name="cor" id="cor">
                                     <option value="azul">Azul</option>
                                     <option value="vermelho">Vermelho</option>
                                     <option value="branco">Branco</option>
-                                </select></td>
-                            </tr>
-                            <tr>
-                                <td class="prod-image2"><img src="img/atabaque2.jpg" alt=""></td>
-                                <td>Pandeiro feito à mão</td>
-                                <td class="price"><strong>R$84,90</strong></td>
-                                <td><select name="tamanho" id="tamanho">
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="prod-image2"><img src="img/atabaque2.jpg" alt=""></td>
+                            <td>Atabaque feito a mão</td>
+                            <td class="price"><strong>R$84,90</strong></td>
+                            <td>
+                                <select name="tamanho" id="tamanho">
                                     <option value="pequeno">Pequeno</option>
                                     <option value="medio">Médio</option>
                                     <option value="grande">Grande</option>
-                                </select></td>
-                                <td>Livre escolha</td>
-                            </tr>
-                            </tbody>
-                        </table>
-                    </div>   
-                </div>
+                                </select>
+                            </td>
+                            <td>Livre escolha</td>
+                        </tr>
+                    </tbody>
+                </table>                
                 <h2 id="contato">Contato</h2>
                 <div class="main">
                     <div class="contato">
@@ -166,7 +173,7 @@
                                 </div>
                                 <div class="input">
                                     <label for="obs">Observações</label>
-                                    <textarea name="obs" id="obs" cols="30" rows="10" placeholder="NOS INFORME DE QUALQUER DETALHE QUE DESEJE ADICIONAR AO SEU PRODUTO!"></textarea>
+                                    <textarea name="obs" id="obs" cols="30" rows="10" placeholder="NOS INFORME DE QUALQUER DETALHE QUE DESEJE ADICIONAR AO SEU PRODUTO! NÃO SE ESQUEÇA DE ESCOLHER A COR OU DESENHO, SE DESEJAR PERSONALIZADO!"></textarea>
                                 </div>
                                 <div class="input">
                                     <button type="submit">Enviar</button>
@@ -177,18 +184,31 @@
                 </div>
                 <h2 id="sobre">Sobre</h2>
                 <div class="main">
-                    <div class="sobre"></div>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis error nulla labore ut, unde explicabo odio ipsa veritatis magni doloribus ea distinctio aliquam autem eaque nam praesentium quaerat quisquam! Iste!
-                    Ipsum eum expedita repudiandae ipsam distinctio recusandae, vitae neque reprehenderit, sequi nam quam eius sit laudantium! Deserunt quod a, dolorem sed numquam, alias ad cum impedit quis beatae repudiandae veritatis.
-                    Nam saepe sint modi. Perspiciatis deserunt eos, asperiores iure et totam tenetur veritatis doloremque doloribus eligendi aliquam magni! Rerum iusto obcaecati corrupti nobis, eius nihil illum amet ut aliquam natus!
-                    Accusamus consequatur cumque maiores cupiditate fuga voluptatibus quo dolores ad sequi delectus tempora nostrum dolore, obcaecati quia facere tempore illum! Explicabo enim cupiditate provident incidunt reiciendis harum, nobis eum ab.
-                    Alias molestiae minus adipisci esse maxime necessitatibus, fuga ullam ut doloribus ipsum veritatis quas eum consequuntur vel aliquid deserunt voluptas. Sapiente ut labore perferendis doloribus. Voluptate magnam aspernatur aliquam inventore.
-                    Perferendis enim quia omnis porro, corporis cumque ad officiis suscipit voluptates iure accusamus reprehenderit vero, assumenda dolores asperiores ipsa doloremque nulla deserunt! Architecto iste maxime distinctio ratione officiis assumenda aut?
-                    Doloremque aliquid ad nam non veritatis est reiciendis, deleniti tenetur quo doloribus eius nesciunt sed! Minima, eos? Totam nemo, temporibus necessitatibus, repudiandae rem similique magnam quidem voluptatum laboriosam magni ipsa!
-                    Tempora provident qui nam minus, commodi fuga aspernatur quos iusto consectetur minima quidem? Necessitatibus enim fugiat iusto impedit in perspiciatis a error possimus itaque incidunt, asperiores culpa pariatur voluptatum molestiae.
-                    Officiis temporibus dicta non a reprehenderit at, sunt fugiat repellat obcaecati dolore totam eligendi recusandae veritatis perspiciatis exercitationem deserunt accusantium vel! Dolor autem libero nam eum magni provident aut perspiciatis!
-                    Sapiente voluptate totam quisquam maxime necessitatibus nisi, mollitia illo vero, ad rerum explicabo, sequi ut. Assumenda, voluptatem voluptatum. Dolorem id illo exercitationem libero accusamus repellat obcaecati omnis, rem modi quo.
-                    </div>
+                    <table class="sobre">
+                        <caption class="bigger2">Conheça mais dos nossos produtos</caption>
+                        <thead>
+                            <tr>
+                                <th>Produtos entregues</th>
+                                <th>Brindes</th>
+                            </tr>
+                        <tbody>
+                            <tr>
+                                <td><img src="img/entregue1.jpg" alt=""></td>
+                                <td rowspan="2">Os berimbaus incluem caxixi, dobrão e baqueta + 3 arames sobreçalentes</td>
+                            </tr>
+                            <tr>
+                                <td><img src="img/entregue2.jpg" alt=""></td>
+                            </tr>
+                            <tr>
+                                <td><img src="img/entregue3.jpg" alt=""></td>
+                                <td rowspan="2">Os atabaques e pandeiros contam com chaves para regulagem e esticar o couro</td>
+                            </tr>
+                            <tr>
+                                <td><img src="img/entregue4.jpg" alt=""></td>
+                            </tr>
+                        </tbody>
+                        </thead>
+                    </table>
                 </div>
             </div>
         </div>

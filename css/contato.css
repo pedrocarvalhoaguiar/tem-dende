@@ -1,7 +1,8 @@
 .contato 
 {
-    width: 50%;
+    width: 60%;
     margin: auto;
+    font-size: 1.4em;    
 }
 
 .input{
@@ -20,8 +21,6 @@
     margin: 20px;
 }
 
-
-
 .info select{
     width: 25%;
 }
@@ -31,7 +30,8 @@
 }
 
 .pedido input[type="number"]{
-    width: 10%;
+    width: 50px;
+    font-size: 1.1em;
 }
 
 .input button{
