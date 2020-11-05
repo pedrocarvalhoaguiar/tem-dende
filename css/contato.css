@@ -1,0 +1,69 @@
+.contato 
+{
+    width: 50%;
+    margin: auto;
+}
+
+.input{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.info{
+    margin-bottom: 50px;
+}
+
+.input{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+
+
+.info select{
+    width: 25%;
+}
+
+.pedido{
+    color:  rgb(214, 130, 130);
+}
+
+.pedido input[type="number"]{
+    width: 10%;
+}
+
+.input button{
+    margin-left: auto;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.5s;
+    background-color: #fff;
+}
+
+.input button:hover{
+    background-color:  rgb(214, 130, 130);
+    cursor: pointer;
+}
+
+.input textarea{
+    text-align: center;
+    margin-top: auto;
+}
+
+.bigger1{
+    font-size: 1.5em;
+    font-weight: bold;
+    color:  rgb(0, 0, 0)
+}
+
+.bigger2{
+    font-size: 1.5em;
+    font-weight: bold;
+    color:  rgb(224, 107, 107)
+}
+.input label{
+    font-weight: bold;
+}
+
