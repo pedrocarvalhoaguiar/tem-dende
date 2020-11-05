@@ -52,9 +52,11 @@ input, select{
 
 input{
     transition: all 0.5s;
+    font-family: sans-serif;
+    font-weight: bolder;
 }
 input:focus{
-    background-color: rgb(211, 127, 127);
+    background-color: rgb(223, 182, 182);
 }
 input::placeholder{
     color: rgb(170, 133, 133);
