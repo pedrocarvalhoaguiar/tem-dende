@@ -1,14 +1,7 @@
-.contato 
-{
+.contato{
     width: 60%;
     margin: auto;
     font-size: 1.4em;    
-}
-
-.input{
-    display: flex;
-    justify-content: space-between;
-    margin: 20px;
 }
 
 .info{
@@ -23,6 +16,10 @@
 
 .info select{
     width: 25%;
+}
+
+input, select{
+    border-radius: 6px;
 }
 
 .pedido{
@@ -50,6 +47,17 @@
 .input textarea{
     text-align: center;
     margin-top: auto;
+    border-radius: 6px;
+}
+
+input{
+    transition: all 0.5s;
+}
+input:focus{
+    background-color: rgb(211, 127, 127);
+}
+input::placeholder{
+    color: rgb(170, 133, 133);
 }
 
 .bigger1{
